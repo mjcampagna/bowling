@@ -29,7 +29,7 @@ button {
 	line-height: 2rem;
 	margin: 3px;
 	outline: none;
-	transition: 0.2s background-color ease-in-out;
+	transition: 0.02s background-color ease-in-out;
 	user-select: none;
 	width: 2rem;
 }
@@ -43,5 +43,6 @@ button:active {
 }
 
 p {
+	font-size: 0.875rem;
 	text-align: center;
 }

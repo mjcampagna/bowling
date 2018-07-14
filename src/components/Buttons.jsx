@@ -12,7 +12,7 @@ export default class Buttons extends React.Component {
 		const buttons = num => {
 			const zeroToNum = Array.from( Array(num).keys() );
 			return zeroToNum.map( n => {
-				return <Button key={n} value={n} deductPins={this.props.deductPins} />;
+				return <Button key={n} value={n} bowl={this.props.bowl} />;
 			});
 		}
 	
